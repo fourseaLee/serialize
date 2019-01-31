@@ -3,6 +3,9 @@
 #include <iostream>
 #include <ostream>
 #include <boost/algorithm/hex.hpp>
+#include "base.h"
+/*
+
 
 struct MyClass
 {
@@ -105,5 +108,15 @@ int main(int argc, char *argv[])
         std::cout << m41->x << " : " << m41->y << " : "<< m41->z << " : " << m41->data << std::endl;
     }
 
+    return 0;
+}
+*/
+
+
+int main()
+{
+
+    testBaseData();
+    testStuff();
     return 0;
 }
